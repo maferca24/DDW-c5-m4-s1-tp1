@@ -1,11 +1,11 @@
 import './App.css'
-import './components/Footer'
+import Footer from './components/Footer';
 
 function App() {
   const name = "María Fernanda"; // 
   const phrase = "Hola, soy " + name + " y estoy comenzando en este mundo fascinante del desarrollo web"; //
   const avatar = "/src/assets/avatar_mfc.png"; //
-  
+
   return (
     <>
       <h1>{phrase}</h1>

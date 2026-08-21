@@ -1,9 +1,7 @@
-function Footer() {
-   return (
-     <div>  
-        <p>Hecho con React por {author}</p>
-        </div>
-   )
- }
- 
- export default Footer
+export default function Footer({ author }) {
+  return (
+    <footer> 
+      <p>Hecho con React por {author}</p>
+    </footer>
+  );
+}
