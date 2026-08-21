@@ -1,5 +1,6 @@
 import './App.css'
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   const name = "María Fernanda"; // 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+    <Header></Header>
       <h1>{phrase}</h1>
       <img src={avatar} alt="Avatar de Fernanda" />
       <p>Este es mi primer trabajo práctico de React</p>
