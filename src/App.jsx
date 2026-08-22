@@ -10,7 +10,8 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+    <Header>
+    </Header>
       <h1>{phrase}</h1>
       <img src={avatar} alt="Avatar de Fernanda" />
       <p>Este es mi primer trabajo práctico de React</p>

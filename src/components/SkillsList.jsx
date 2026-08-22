@@ -15,11 +15,6 @@ export default function SkillsList() {
                 ))
 
                 }
-                <p>Nombre{skills.name}</p>
-                <p>Nivel {skills.level}</p>
-                <p>Hecho con React por {skills.isFavorite}</p>
-
-
             </div>
         </section>
     );
