@@ -1,16 +1,24 @@
 export default function ProfileHeader({ name, phrase, photo }) {
-
-  const handleClick = () => {
+  const handleAlgo = () => {
     alert(`¡Hola! Gracias por visitar el perfil de ${name}`);
   };
 
   return (
-    <header >
-      <h1 >{name}</h1>
-      <p >{phrase}</p>
-     <p> {photo} </p>
+    <header className="">
+      {/* Agrego etiqueta <img> usando la prop photo en src */}
+      {photo && (
+        <img 
+          src={photo} 
+          alt={`Foto de perfil de ${name}`} 
+          className=""
+        />
+      )}
+
+      <h1 className="">{name}</h1>
+      <p className="">{phrase}</p>
+      
       <button 
-        onClick={handleClick}
+        onClick={handleAlgo}
         className=""
       >
         Contactar / Saludar
