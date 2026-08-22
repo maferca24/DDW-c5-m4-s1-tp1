@@ -1,6 +1,7 @@
 export default function ProfileHeader({ name, phrase, photo }) {
   const handleAlgo = () => {
     alert(`¡Hola! Gracias por visitar el perfil de ${name}`);
+    console.log(`¡Hola! Gracias por visitar el perfil de ${name}`)
   };
 
   return (
