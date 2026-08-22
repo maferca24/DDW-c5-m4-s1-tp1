@@ -1,25 +1,21 @@
-import './App.css'
-import Footer from './components/Footer';
-import Header from './components/Header';
+import ProfileHeader from './components/ProfileHeader';
 import SkillsList from './components/SkillsList';
+import Footer from './components/Footer';
 
 function App() {
-  const name = "María Fernanda"; // 
-  const phrase = "Hola, soy " + name + " y estoy comenzando en este mundo fascinante del desarrollo web"; //
-  const avatar = "/src/assets/avatar_mfc.png"; //
+  const name = "Maria Fernanda"; 
+  const phrase = "Hola, soy " + name + " y estoy comenzando en este mundo fascinante del desarrollo web";
+  const photo = "/src/assets/avatar_mfc.png"; 
 
   return (
-    <>
-    <Header>
-    </Header>
-      <h1>{phrase}</h1>
-      <img src={avatar} alt="Avatar de Fernanda" />
-      <p>Este es mi primer trabajo práctico de React</p>
-      <SkillsList/>
+    <div>
+      <main>
+        <ProfileHeader name={name} phrase={phrase} photo={photo} />
+        <SkillsList/>
+      </main>
       <Footer author={name} />
-
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
