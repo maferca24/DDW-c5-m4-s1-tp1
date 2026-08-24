@@ -1,4 +1,4 @@
-# [Nombre del proyecto: DDW-c5-m4-s1-tp1 ]
+# Nombre del proyecto: DDW-c5-m4-s1-tp1 
 
 ## Qué es
 Página de Presentación personal resolviendo consigna TP N1
